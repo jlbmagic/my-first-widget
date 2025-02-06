@@ -1,7 +1,7 @@
 {
-  "name": "my-first-widget",
+  "name": "@integrating-magic/my-first-widget",
   "version": "1.0.0",
-  "author": "",
+  "author": "jeremy brown",
   "license": "MIT",
   "description": "Solving a client problem",
   "scripts": {
@@ -29,5 +29,19 @@
   "widgetType": "JS",
   "dependencies": {
     "c3": "^0.7.20"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlbmagic/my-first-widget.git"
+  },
+  "keywords": [
+    "js-in-fm",
+    "chart",
+    "filemaker"
+  ],
+  "bugs": {
+    "url": "https://github.com/jlbmagic/my-first-widget/issues"
+  },
+  "homepage": "https://github.com/jlbmagic/my-first-widget#readme"
 }
