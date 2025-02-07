@@ -86,6 +86,11 @@ window.updateData = function (json) {
 };
 window.changeColors = function (json) {
   const obj = JSON.parse(json);
-  const { colors } = obj;
-  chart.data.colors(colors);
+console.log(obj);
+const { colors } = obj;
+const setColors = {
+  "fieldData.salesAmount": obj.color1,
+  "fieldData.unitsSold": obj.color2,
+};
+chart.data.colors(setColors);
 };
